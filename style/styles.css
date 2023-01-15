@@ -1,0 +1,42 @@
+/* universal css */
+* {
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* common css */
+button {
+    background-color: #fa9907;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: whitesmoke;
+}
+
+.brand {
+    margin-bottom: 20px;
+}
+
+/* regular css */
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.menu-item ul {
+    display: flex;
+    list-style: none;
+}
+
+.menu-item ul li {
+    padding: 0 5px;
+}
+
+.menu-item ul li a {
+    text-decoration: none;
+    color: black;
+}
+
