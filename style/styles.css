@@ -168,3 +168,76 @@ features
     color: white;
     text-align: center;
 }
+/* responsive query */
+
+@media only screen and (max-width: 480px) {
+    .menu {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .menu-item ul li {
+        padding: 0;
+    }
+
+    .banner-imag {
+        width: 250px;
+        height: auto;
+    }
+
+    .features {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .feature-image {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+
+    .feature-image img{
+        width: 200px;
+        height: auto;
+    }
+
+    .part {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .love-image {
+        width: 250px;
+        height: auto;
+    }
+
+    .project {
+        margin: 50px 0;
+    }
+
+    .project-header {
+        width: 200px;
+    }
+
+    .project-content {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+
+    .project-icon-content {
+
+        padding: 10px 15px;
+        margin: 10px;
+
+    }
+
+    .sposor-icon {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+
+    .experience {
+        padding: 5px 10px;
+    }
+}
